@@ -33,6 +33,6 @@ namespace PhoneBookManagement.Library.Domain
         /// </summary>
         public PhoneNumber Number { get; set; }
 
-        public override string ToString() => $"{FirstName}-{LastName} : {PhoneType.ToString()} : {Number}";
+        public override string ToString() => $"{FirstName}-{LastName} : {PhoneType} : {Number}";
     }
 }
